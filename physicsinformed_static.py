@@ -10,7 +10,7 @@ class PhysicsInformedBarModel:
     def __init__(self, E, nu, bh, u0, dist_load):
         """Construct a PhysicsInformedBar model"""
 
-        self.E = E
+        self.E = E*1
         self.nu = nu
         self.bh = bh
         self.u0 = u0
